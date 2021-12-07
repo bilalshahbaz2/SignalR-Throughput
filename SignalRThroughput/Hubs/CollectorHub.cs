@@ -45,7 +45,7 @@ namespace SignalRThroughput.Hubs
 
             Console.WriteLine($"Running Block");
 
-            for (int i = 0; i < 10000; i++)
+            for (int i = 0; i < 1000; i++)
             {
                 var _out = MessageHelper.CreateOutgoing(i);
 

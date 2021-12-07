@@ -29,9 +29,10 @@ namespace SignalRThroughputClient
         private BufferBlock<OutgoingMessage> messageBuffer;
         private ActionBlock<OutgoingMessage> actionBlock;
 
-        private readonly Timer time;
+        private Timer time;
         private readonly List<OutgoingMessage> minData;
         private int currentSec;
+        private bool flag;
 
         public SignalRCollectorClient(string url, CancellationTokenSource cts, int requestCount)
         {
@@ -45,8 +46,7 @@ namespace SignalRThroughputClient
 
             this.minData = new List<OutgoingMessage>();
             this.currentSec = 1;
-            this.time = new Timer(minCount, null, TimeSpan.FromSeconds(0), TimeSpan.FromSeconds(1));
-
+            this.flag = true;
 
             messageBuffer = new BufferBlock<OutgoingMessage>();
             actionBlock = new ActionBlock<OutgoingMessage>(item =>
@@ -126,6 +126,11 @@ namespace SignalRThroughputClient
                         //message.RecievedTime = DateTime.Now.Ticks;
                         //this.messageBuffer.Post(message);
                         this.minData.Add(message);
+                        if (flag)
+                        {
+                            this.time = new Timer(minCount, null, TimeSpan.FromSeconds(0), TimeSpan.FromSeconds(1));
+                            this.flag = false;
+                        }
                     }
                 }
             }, TaskCreationOptions.LongRunning);
