@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRThroughput", "SignalRThroughput\SignalRThroughput.csproj", "{F8E3C1FD-1BF5-4F91-A63D-58E27CF6B0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRThroughputClient", "SignalRThroughputClient\SignalRThroughputClient.csproj", "{DB17B396-DC8F-47EB-8A45-F29F8A228DD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8E3C1FD-1BF5-4F91-A63D-58E27CF6B0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E3C1FD-1BF5-4F91-A63D-58E27CF6B0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E3C1FD-1BF5-4F91-A63D-58E27CF6B0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E3C1FD-1BF5-4F91-A63D-58E27CF6B0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB17B396-DC8F-47EB-8A45-F29F8A228DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB17B396-DC8F-47EB-8A45-F29F8A228DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB17B396-DC8F-47EB-8A45-F29F8A228DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB17B396-DC8F-47EB-8A45-F29F8A228DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32465D13-66F8-4F6C-8B3B-A45A9E4B5E7B}
+	EndGlobalSection
+EndGlobal
