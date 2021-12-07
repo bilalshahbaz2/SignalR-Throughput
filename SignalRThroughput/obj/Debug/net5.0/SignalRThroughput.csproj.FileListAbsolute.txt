@@ -33,3 +33,42 @@ D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\obj\Debug\net5.0\ref\SignalRThroughput.dll
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.pdb
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.genruntimeconfig.cache
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\appsettings.Development.json
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\appsettings.json
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\libman.json
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\SignalRThroughput.exe
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\SignalRThroughput.deps.json
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\SignalRThroughput.runtimeconfig.json
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\SignalRThroughput.runtimeconfig.dev.json
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\SignalRThroughput.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\ref\SignalRThroughput.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\SignalRThroughput.pdb
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\MessagePack.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\MessagePack.Annotations.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Common.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Protocols.MessagePack.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\SignalR-Throughput\SignalRThroughput\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.csproj.AssemblyReference.cache
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.GeneratedMSBuildEditorConfig.editorconfig
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.AssemblyInfoInputs.cache
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.AssemblyInfo.cs
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.csproj.CoreCompileInputs.cache
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.MvcApplicationPartsAssemblyInfo.cs
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.MvcApplicationPartsAssemblyInfo.cache
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\staticwebassets\SignalRThroughput.StaticWebAssets.Manifest.cache
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\staticwebassets\SignalRThroughput.StaticWebAssets.xml
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\scopedcss\bundle\SignalRThroughput.styles.css
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.RazorTargetAssemblyInfo.cache
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.csproj.CopyComplete
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.dll
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\ref\SignalRThroughput.dll
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.pdb
+D:\SignalR-Throughput\SignalRThroughput\obj\Debug\net5.0\SignalRThroughput.genruntimeconfig.cache

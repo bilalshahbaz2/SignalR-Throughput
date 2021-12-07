@@ -30,3 +30,39 @@ D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughputClient\obj\Release\net5.0\ref\SignalRThroughputClient.dll
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughputClient\obj\Release\net5.0\SignalRThroughputClient.pdb
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughputClient\obj\Release\net5.0\SignalRThroughputClient.genruntimeconfig.cache
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\SignalRThroughputClient.exe
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\SignalRThroughputClient.deps.json
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\SignalRThroughputClient.runtimeconfig.json
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\SignalRThroughputClient.runtimeconfig.dev.json
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\SignalRThroughputClient.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\ref\SignalRThroughputClient.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\SignalRThroughputClient.pdb
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.AspNetCore.SignalR.Client.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.AspNetCore.SignalR.Common.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.Extensions.Logging.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.Extensions.Options.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.Extensions.Primitives.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\System.IO.Pipelines.dll
+D:\SignalR-Throughput\SignalRThroughputClient\obj\Release\net5.0\SignalRThroughputClient.csproj.AssemblyReference.cache
+D:\SignalR-Throughput\SignalRThroughputClient\obj\Release\net5.0\SignalRThroughputClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\SignalR-Throughput\SignalRThroughputClient\obj\Release\net5.0\SignalRThroughputClient.AssemblyInfoInputs.cache
+D:\SignalR-Throughput\SignalRThroughputClient\obj\Release\net5.0\SignalRThroughputClient.AssemblyInfo.cs
+D:\SignalR-Throughput\SignalRThroughputClient\obj\Release\net5.0\SignalRThroughputClient.csproj.CoreCompileInputs.cache
+D:\SignalR-Throughput\SignalRThroughputClient\obj\Release\net5.0\SignalRThroughputClient.csproj.CopyComplete
+D:\SignalR-Throughput\SignalRThroughputClient\obj\Release\net5.0\SignalRThroughputClient.dll
+D:\SignalR-Throughput\SignalRThroughputClient\obj\Release\net5.0\ref\SignalRThroughputClient.dll
+D:\SignalR-Throughput\SignalRThroughputClient\obj\Release\net5.0\SignalRThroughputClient.pdb
+D:\SignalR-Throughput\SignalRThroughputClient\obj\Release\net5.0\SignalRThroughputClient.genruntimeconfig.cache
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\MessagePack.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\MessagePack.Annotations.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.AspNetCore.SignalR.Protocols.MessagePack.dll
+D:\SignalR-Throughput\SignalRThroughputClient\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll

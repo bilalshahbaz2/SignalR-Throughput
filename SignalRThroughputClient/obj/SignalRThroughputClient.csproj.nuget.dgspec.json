@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\LightPoint\\SingnalR(Throughput Test)\\SignalRThroughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj": {}
+    "D:\\SignalR-Throughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj": {}
   },
   "projects": {
-    "D:\\Work\\LightPoint\\SingnalR(Throughput Test)\\SignalRThroughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj": {
+    "D:\\SignalR-Throughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\LightPoint\\SingnalR(Throughput Test)\\SignalRThroughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj",
+        "projectUniqueName": "D:\\SignalR-Throughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj",
         "projectName": "SignalRThroughputClient",
-        "projectPath": "D:\\Work\\LightPoint\\SingnalR(Throughput Test)\\SignalRThroughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj",
-        "packagesPath": "C:\\Users\\Bilal(Techverx)\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\LightPoint\\SingnalR(Throughput Test)\\SignalRThroughput\\SignalRThroughputClient\\obj\\",
+        "projectPath": "D:\\SignalR-Throughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj",
+        "packagesPath": "C:\\Users\\Techverx\\.nuget\\packages\\",
+        "outputPath": "D:\\SignalR-Throughput\\SignalRThroughputClient\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Bilal(Techverx)\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Techverx\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +46,10 @@
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
               "version": "[5.0.12, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Protocols.MessagePack": {
+              "target": "Package",
+              "version": "[5.0.12, )"
             }
           },
           "imports": [
@@ -60,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.SignalR.Client;
+using Microsoft.Extensions.DependencyInjection;
 using SignalRThroughput.Models;
 using System;
 using System.Collections.Concurrent;
@@ -67,9 +68,15 @@ namespace SignalRThroughputClient
 
             //messageBuffer.LinkTo( actionBlock );
 
-            this.hubConnection = new HubConnectionBuilder().WithUrl(hubUrl)
-               .WithAutomaticReconnect()
-               .Build();
+            //this.hubConnection = new HubConnectionBuilder().WithUrl(hubUrl)
+            //   .WithAutomaticReconnect()
+            //   .Build();
+
+            this.hubConnection = new HubConnectionBuilder()
+                        .WithUrl(hubUrl)
+                        .WithAutomaticReconnect()
+                        .AddMessagePackProtocol()
+                        .Build();
 
             this.InitAsync().GetAwaiter().GetResult();
         }
@@ -118,7 +125,6 @@ namespace SignalRThroughputClient
                     {
                         //message.RecievedTime = DateTime.Now.Ticks;
                         //this.messageBuffer.Post(message);
-
                         this.minData.Add(message);
                     }
                 }

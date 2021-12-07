@@ -34,7 +34,7 @@ namespace SignalRThroughput
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SignalRThroughput", Version = "v1" });
             });
 
-            services.AddSignalR();
+            services.AddSignalR().AddMessagePackProtocol();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
