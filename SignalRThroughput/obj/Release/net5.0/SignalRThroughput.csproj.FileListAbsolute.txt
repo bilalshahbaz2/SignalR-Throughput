@@ -17,7 +17,6 @@ D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\bin\Release\net5.0\System.IO.Pipelines.dll
-D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\obj\Release\net5.0\SignalRThroughput.csprojAssemblyReference.cache
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\obj\Release\net5.0\SignalRThroughput.GeneratedMSBuildEditorConfig.editorconfig
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\obj\Release\net5.0\SignalRThroughput.AssemblyInfoInputs.cache
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\obj\Release\net5.0\SignalRThroughput.AssemblyInfo.cs
@@ -72,3 +71,7 @@ D:\SignalR-Throughput\SignalRThroughput\bin\Release\net5.0\MessagePack.dll
 D:\SignalR-Throughput\SignalRThroughput\bin\Release\net5.0\MessagePack.Annotations.dll
 D:\SignalR-Throughput\SignalRThroughput\bin\Release\net5.0\Microsoft.AspNetCore.SignalR.Protocols.MessagePack.dll
 D:\SignalR-Throughput\SignalRThroughput\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\bin\Release\net5.0\MessagePack.dll
+D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\bin\Release\net5.0\MessagePack.Annotations.dll
+D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\bin\Release\net5.0\Microsoft.AspNetCore.SignalR.Protocols.MessagePack.dll
+D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll

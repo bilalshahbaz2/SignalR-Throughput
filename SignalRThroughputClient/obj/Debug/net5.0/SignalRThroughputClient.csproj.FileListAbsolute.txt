@@ -66,3 +66,7 @@ D:\SignalR-Throughput\SignalRThroughputClient\obj\Debug\net5.0\SignalRThroughput
 D:\SignalR-Throughput\SignalRThroughputClient\obj\Debug\net5.0\ref\SignalRThroughputClient.dll
 D:\SignalR-Throughput\SignalRThroughputClient\obj\Debug\net5.0\SignalRThroughputClient.pdb
 D:\SignalR-Throughput\SignalRThroughputClient\obj\Debug\net5.0\SignalRThroughputClient.genruntimeconfig.cache
+D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughputClient\bin\Debug\net5.0\MessagePack.dll
+D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughputClient\bin\Debug\net5.0\MessagePack.Annotations.dll
+D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughputClient\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Protocols.MessagePack.dll
+D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughputClient\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll

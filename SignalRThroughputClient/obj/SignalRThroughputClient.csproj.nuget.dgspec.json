@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SignalR-Throughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj": {}
+    "D:\\Work\\LightPoint\\SingnalR(Throughput Test)\\SignalRThroughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj": {}
   },
   "projects": {
-    "D:\\SignalR-Throughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj": {
+    "D:\\Work\\LightPoint\\SingnalR(Throughput Test)\\SignalRThroughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SignalR-Throughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj",
+        "projectUniqueName": "D:\\Work\\LightPoint\\SingnalR(Throughput Test)\\SignalRThroughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj",
         "projectName": "SignalRThroughputClient",
-        "projectPath": "D:\\SignalR-Throughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj",
-        "packagesPath": "C:\\Users\\Techverx\\.nuget\\packages\\",
-        "outputPath": "D:\\SignalR-Throughput\\SignalRThroughputClient\\obj\\",
+        "projectPath": "D:\\Work\\LightPoint\\SingnalR(Throughput Test)\\SignalRThroughput\\SignalRThroughputClient\\SignalRThroughputClient.csproj",
+        "packagesPath": "C:\\Users\\Bilal(Techverx)\\.nuget\\packages\\",
+        "outputPath": "D:\\Work\\LightPoint\\SingnalR(Throughput Test)\\SignalRThroughput\\SignalRThroughputClient\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Techverx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bilal(Techverx)\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
