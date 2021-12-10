@@ -15,6 +15,7 @@ namespace SignalRThroughput.Models
         public ResponseBag ResponseBag { get; set; } = new ResponseBag();
         public String ConnectionId { get; set; }
         public int Key { get; set; }
+        public int Block { get; set; }
         public long RecievedTime { get; set; }
 
     }

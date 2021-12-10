@@ -12,9 +12,11 @@ namespace SignalRThroughputClient
 
             var signalRHub = new SignalRCollectorClient("http://localhost:5000/hubs/collector", new System.Threading.CancellationTokenSource(), 200);
 
+            await Task.Delay(200);
+            //await signalRHub.Execute();
             signalRHub.RecieveUpdates();
-            await signalRHub.Execute(200);
-            
+            //signalRHub.trigger();
+
 
             Console.ReadLine();
         }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 using SignalRThroughput.Models;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Channels;
@@ -12,46 +13,86 @@ namespace SignalRThroughput.Hubs
     public class CollectorHub : Hub
     {
         private readonly Channel<OutgoingMessage> channelBuffer;
-        private readonly BufferBlock<OutgoingMessage> buffer;
 
-        private readonly Timer timer1;
-        private readonly Timer timer2;
-        private readonly Timer timer3;
-        private readonly Timer timer4;
+        private Timer timer;
+        private readonly List<int> arr;
+        private int i;
+
+
+        private static int Interval = 1;
+        private Stopwatch watch;
+
 
 
         public CollectorHub()
         {
             channelBuffer = Channel.CreateUnbounded<OutgoingMessage>();
-            buffer = new BufferBlock<OutgoingMessage>();
 
-            //int x = 1;
-            var stopwatch = Stopwatch.StartNew();
+            this.arr = new List<int>() { 1000, 2000, 3000, 4000, 5000 };
+            this.i = 0;
+            this.watch = new Stopwatch();
+            this.timer = new Timer(Dump, null, TimeSpan.FromSeconds(0), TimeSpan.FromHours(1));
+        }
 
-            timer1 = new Timer(InjectData, null, TimeSpan.FromSeconds(0), TimeSpan.FromSeconds(2));
+        private async void Dump(object state)
+        {
+            //if(Interval <= 10)
+            //{
 
-            timer2 = new Timer(InjectData, null, TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(2));
+            //    for (int q = 0; q < this.arr[0] / 10; q++)
+            //    {
+            //        var _out = MessageHelper.CreateOutgoing(q);
+            //        //_out.Block = this.arr[q];
+            //        Console.WriteLine(q);
 
-            timer3 = new Timer(InjectData, null, TimeSpan.FromSeconds(0), TimeSpan.FromSeconds(3));
+            //        await this.channelBuffer.Writer.WriteAsync(_out);
 
-            timer4 = new Timer(InjectData, null, TimeSpan.FromSeconds(0), TimeSpan.FromSeconds(5));
+            //    }
+
+            //    Interval++;
+            //}
+            //else
+            //{
+            //    Interval = 1;
+
+            //    Console.WriteLine("Waiting for 2 sec...");
+            //    Thread.Sleep(2000);
+
+            //}
 
 
+            var count = this.arr.Count;
+            for(int p=0; p<count; p++)
+            {
+                var interval = this.arr[p] / 10;
+                for(int x=1; x<=10; x++)
+                {
+                    int q = 1;
+                    watch.Restart();
+                    while(watch.ElapsedMilliseconds <= 100 && q <= interval)
+                    {
+                        var _out = MessageHelper.CreateOutgoing(q);
+                        await this.channelBuffer.Writer.WriteAsync(_out);
+                        q++;
+                    }
+                }
+                watch.Restart();
+                while (watch.Elapsed.TotalSeconds <= 5)
+                {
+
+                }
+            }
 
         }
 
-        private void InjectData(object state)
+
+        private void InjectData(int p)
         {
+            Console.WriteLine("Running Block");
 
-            Console.WriteLine($"Running Block");
-
-            for (int i = 0; i < 1000; i++)
-            {
-                var _out = MessageHelper.CreateOutgoing(i);
-
-                this.channelBuffer.Writer.WriteAsync(_out);
-            }
-            Console.WriteLine($"Executed Block");
+            var interval = this.arr[p] / 10;
+            int x = 1;
+            
         }
 
         public override Task OnConnectedAsync()
@@ -68,6 +109,8 @@ namespace SignalRThroughput.Hubs
             return Task.FromResult(channel.Reader);
         }
 
+
+
         private async Task WriteItemsAsync(ChannelWriter<OutgoingMessage> writer, CancellationToken cancellationToken)
         {
             Exception localException = null;
@@ -76,8 +119,9 @@ namespace SignalRThroughput.Hubs
                 while (!cancellationToken.IsCancellationRequested)
                 {
                     var message = await this.channelBuffer.Reader.ReadAsync();
+
                     await writer.WriteAsync(message, cancellationToken);
-                    Console.WriteLine($"Publishing :  -- {message.Key}");
+                    Console.WriteLine($"Publishing : {message.Block} -- {message.Key}");
                 }
             }
             catch (Exception ex)

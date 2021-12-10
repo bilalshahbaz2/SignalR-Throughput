@@ -96,12 +96,10 @@ namespace SignalRThroughputClient
             else throw new Exception($"Conneciton info {this.hubConnection.State}");
         }
 
-        public async Task Execute(int count)
-        {
-            //this.timer.Start();
-            var t = hubConnection.State;
-            await hubConnection.SendAsync("SendMessageAsync");
-        }
+        //public async Task Execute()
+        //{
+        //    await hubConnection.SendAsync("InjectData");
+        //}
 
 
         private void StopTimer()
@@ -123,6 +121,7 @@ namespace SignalRThroughputClient
                     OutgoingMessage message;
                     while (channel.TryRead(out message))
                     {
+                        //Console.WriteLine("receiving");
                         //message.RecievedTime = DateTime.Now.Ticks;
                         //this.messageBuffer.Post(message);
                         this.minData.Add(message);
@@ -151,6 +150,12 @@ namespace SignalRThroughputClient
             Console.WriteLine($"{this.currentSec}--{this.minData.Count}");
             this.minData.Clear();
             currentSec++;
+
+        }
+
+        public void trigger()
+        {
+            this.hubConnection.InvokeAsync("TriggerDump");
         }
     }
 }

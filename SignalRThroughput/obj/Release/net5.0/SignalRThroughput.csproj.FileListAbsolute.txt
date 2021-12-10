@@ -75,3 +75,4 @@ D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\bin\Release\net5.0\MessagePack.Annotations.dll
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\bin\Release\net5.0\Microsoft.AspNetCore.SignalR.Protocols.MessagePack.dll
 D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Work\LightPoint\SingnalR(Throughput Test)\SignalRThroughput\SignalRThroughput\obj\Release\net5.0\SignalRThroughput.csprojAssemblyReference.cache
