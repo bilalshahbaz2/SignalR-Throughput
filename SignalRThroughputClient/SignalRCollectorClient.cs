@@ -77,12 +77,11 @@ namespace SignalRThroughputClient
                         .WithAutomaticReconnect()
                         .AddMessagePackProtocol()
                         .Build();
-
             this.InitAsync().GetAwaiter().GetResult();
         }
 
 
-        private async Task InitAsync()
+        public  async Task InitAsync()
         {
             await this.hubConnection.StartAsync(this.cancellationToken);
 
@@ -116,6 +115,7 @@ namespace SignalRThroughputClient
             {
                 var stream = hubConnection.StreamAsync<OutgoingMessage>("FeedHandler", this.cancellationTokenSource.Token);
                 var channel = await hubConnection.StreamAsChannelAsync<OutgoingMessage>("FeedHandler", cancellationToken);
+                Console.WriteLine("Feedback Registed");
                 while (await channel.WaitToReadAsync())
                 {
                     OutgoingMessage message;
@@ -124,38 +124,40 @@ namespace SignalRThroughputClient
                         //Console.WriteLine("receiving");
                         //message.RecievedTime = DateTime.Now.Ticks;
                         //this.messageBuffer.Post(message);
-                        this.minData.Add(message);
-                        if (flag)
-                        {
-                            this.time = new Timer(minCount, null, TimeSpan.FromSeconds(0), TimeSpan.FromSeconds(1));
+                        if (flag )
+                        { 
                             this.flag = false;
+                            this.time = new Timer(minCount, null, TimeSpan.FromSeconds(0), TimeSpan.FromSeconds(1));
+                            Console.WriteLine(".");
                         }
+                       // Console.WriteLine(".");
+                        this.minData.Add(message);
+                        
                     }
                 }
             }, TaskCreationOptions.LongRunning);
         }
 
-        private void CalculateStat(int section)
-        {
-            var ticks = this.timeDictionary[section][199] - this.timeDictionary[section][0];
-            var ms = ticks * 0.0001;
-            var sec = ms * 0.001;
+        //private void CalculateStat(int section)
+        //{
+        //    var ticks = this.timeDictionary[section][199] - this.timeDictionary[section][0];
+        //    var ms = ticks * 0.0001;
+        //    var sec = ms * 0.001;
 
-            this.StatsList.TryAdd(section, sec);
-            Console.WriteLine($"Time in Seconds it took Section-{section} = {sec}");
-        }
+        //    this.StatsList.TryAdd(section, sec);
+        //    Console.WriteLine($"Time in Seconds it took Section-{section} = {sec}");
+        //}
 
         private void minCount(object state)
         {
             Console.WriteLine($"{this.currentSec}--{this.minData.Count}");
             this.minData.Clear();
             currentSec++;
-
         }
 
         public void trigger()
         {
-            this.hubConnection.InvokeAsync("TriggerDump");
+            this.hubConnection.InvokeAsync("Run");
         }
     }
 }
